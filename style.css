@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(23, 53, 53);
+    display: flex;
+    justify-content: space-between ;
+
+}
+.leftnav{
+    font-size: 30px;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightnav{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.profile{
+    height: 50px;
+    width: 50px;
+    background-image: url("https://wallpaperaccess.com/full/8674417.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    
+}
+.profile:hover{
+    scale: 1.1;
+
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    right: -2px;
+    top: -5px;
+    border-radius: 7.5px;
+}
